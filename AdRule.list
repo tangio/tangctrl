@@ -1,3 +1,2 @@
 # Update > 2021.2.27 This rule is based on optimization by lhie1/Rules.
-# https://raw.githubusercontent.com/tangio/tangctrl/main/AdRule.list
 DOMAIN-SUFFIX,bna-pic.oss-cn-beijing.aliyuncs.com,REJECT
