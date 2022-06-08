@@ -1,0 +1,16 @@
+{
+	"第一版主网": {
+		"host": "www.tz659.com",
+		"url": "/\\/\\d+\\/\\d+(_\\d+)?\\.html$/",
+		"pager": {
+			"nextL": ".chapterPages>a.curr+a, a.next",
+			"pageE": "#chapterinfo, #contentText, .neirong",
+			"insertP": [
+				"#chapterinfo, #contentText, .neirong",
+				6
+			],
+			"replaceE": ".chapterPages, .page-control",
+			"insertP6Br": true
+		}
+	}
+} 
